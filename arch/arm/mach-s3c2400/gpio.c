@@ -39,4 +39,5 @@ int s3c2400_gpio_getirq(unsigned int pin)
 	return (pin - S3C2410_GPE0) + IRQ_EINT0;
 }
 
+
 EXPORT_SYMBOL(s3c2400_gpio_getirq);
